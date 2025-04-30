@@ -17,4 +17,4 @@ jobs:
         shell: bash
         run: |
           cd laboratories/cicd-documentation
-          python3 test_iamil.py
+          pytest -v test_iamil.py
