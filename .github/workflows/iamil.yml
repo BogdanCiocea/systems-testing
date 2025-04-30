@@ -1,7 +1,9 @@
 name: cicd-documentation
 
 on:
-  workflow_dispatch:
+    push:
+        tags:
+        - ‘commit/*’
 
 jobs:
   run:
