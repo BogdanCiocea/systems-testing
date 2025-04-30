@@ -1,9 +1,6 @@
 name: cicd-documentation
 
-on:
-    push:
-        tags:
-        - ‘commit/*’
+on: [push]
 
 jobs:
   run:
